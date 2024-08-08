@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meals App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4286c095cf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="main-div">
+        <h1>Find Meals of Your Choice</h1>
+        <div id="search-div">
+            <input type="search" id="search-bar" placeholder="Enter meal to search" class="border-circle">
+            <button type="button" id="random-image"><i class="fa-solid fa-shuffle"></i></button>
+            <button type="button" class="border-circle" id="my-favourite-meals">Favourite Meals</button>
+        </div>
+        <div id="meals-div"></div>
+    </div>
+
+    <!-- Modal for Meal Details -->
+    <div id="mealModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
