@@ -5,5 +5,5 @@ Features included:
 3. Display any random meal on clicking on the random icon
 4. My favourite list is stored in the browser even if we refresh or quit the browser
 
-API:https://www.themealdb.com/api.php
+Check out the live demo of the application at : https://rishi4140.github.io/Meals-App/
 This project is used making HTML,CSS and vanilla JS without use of any library.
